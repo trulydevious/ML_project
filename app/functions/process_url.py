@@ -2,7 +2,7 @@ import numpy as np
 import pandas as pd
 from urllib.parse import urlparse
 
-#test github
+
 def extract_features(url):
     parsed_url = urlparse(url)
     url_length = len(url)
